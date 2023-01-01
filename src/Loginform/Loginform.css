@@ -1,0 +1,16 @@
+#loginform {
+    width: 45vw;
+    padding: 2.3rem;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#loginform input {
+    font-size: 1.2rem;
+}

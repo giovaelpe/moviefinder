@@ -1,0 +1,26 @@
+#movie-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#movie-info {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+
+@media only screen and (max-width: 450px) {
+    #movie-info {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #movie-info img {
+        width: 55vw;
+    }
+}
+

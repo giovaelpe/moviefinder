@@ -1,0 +1,13 @@
+.searchform {
+    display: flex;
+    justify-content: center;
+}
+.searchform input {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .searchform input[type="text"] {
+        width: 13rem;
+    }
+}

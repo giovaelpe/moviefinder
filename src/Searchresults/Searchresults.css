@@ -1,0 +1,33 @@
+.result-table {
+    display: flex;
+    justify-content: center;
+}
+#movie-grid {
+    display: grid;
+    grid-template-columns: 8rem 8rem 8rem 8rem;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 550px) {
+    #movie-grid {
+        grid-template-columns: 8rem 8rem;
+    }
+}
+
+.movie-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.movie-item h4 {
+    text-align: center;
+}
+
+.movie-item:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px black;
+}
