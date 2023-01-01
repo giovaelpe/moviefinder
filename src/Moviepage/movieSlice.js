@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const apikey = '960b9ccf';
-const endpoint = "http://www.omdbapi.com/?apikey="+apikey+"&i=";
+const endpoint = "https://www.omdbapi.com/?apikey="+apikey+"&i=";
 
 export const getMovieInfo = createAsyncThunk(
     "movie/showMovie",
