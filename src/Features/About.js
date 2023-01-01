@@ -19,8 +19,8 @@ export function About(props) {
             </ul>
             <h3>Contact</h3>
             <ul>
-                <li><a href="https://www.linkedin.com/in/wilman-giovanni-el-zelah-pellegrino-b2a97b120/" target="_blank">Linkedin</a></li>
-                <li><a href="https://twitter.com/wilmanslice" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/wilman-giovanni-el-zelah-pellegrino-b2a97b120/" rel="noreferrer" target="_blank">Linkedin</a></li>
+                <li><a href="https://twitter.com/wilmanslice" target="_blank" rel="noreferrer">Twitter</a></li>
             </ul>
         </div>
     )

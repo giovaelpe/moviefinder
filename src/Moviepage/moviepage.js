@@ -20,7 +20,7 @@ export function Moviepage(props) {
             return item.id === search.get("id");
         })
         if (check) setBookmark(true);
-    }, []);
+    },[dispatch, search, list]);
 
     const handleAdd = () => {
         if (user.logged) {

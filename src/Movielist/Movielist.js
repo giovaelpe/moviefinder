@@ -9,7 +9,7 @@ export function Movielist(props){
     const body = list.map((item, index) => {
         return <div key={index} style={{ display : "flex", flexDirection : "column", alignItems : "flex-start", width: "40vw", margin : "0 auto", marginTop: "1rem" }}>
             <div style={{display: "flex", alignItems: "center", gap: "0.6rem", justifyContent: "space-between"}}>
-            <img src={item.poster} style={{width : "3rem"}} />
+            <img src={item.poster} style={{width : "3rem"}} alt={item.title} />
             <strong>{item.title}</strong>
             <button className="material-symbols-outlined" onClick={() => {
                 dispatch(removeItem(item.id));
